@@ -38,7 +38,7 @@
       "action": "https://ert6g2.wixsite.com/hoosthinkcalmly/general-8"
     }
   ],
-  "surveys": {"type": "ref", "path": "protocols/surveys.json"},
+  "surveys": {"type": "ref", "path": "surveys.json"},
   "reminders": {
     "reminder_1": {"type": "survey", "survey_id": "daily", "frequency": "01:00:00:00", "take": 14, "time": "09:00:00"}
   }

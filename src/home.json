@@ -12,7 +12,7 @@
             "hideoncomplete": true,
             "action": {
                 "text": "Surveys",
-                "action": "navmodal://Survey"
+                "action": "flow://flows/example-survey"
             }
         },
         {
