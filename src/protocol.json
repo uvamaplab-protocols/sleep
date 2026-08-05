@@ -6,10 +6,6 @@
       "path": "./home.json"
     }
   },
-  "settings": {
-    "unenroll": "flow://flows/reasons for ending/",
-    "font_scale": 1.25
-  },
   "start_flow": "flow://flows/intro",
   "menu": [
     {
@@ -28,11 +24,6 @@
       "action": "flow://flows/what is anxiety.json"
     },
     {
-      "text": "Resources",
-      "icon": "/assets/menu_resources.png",
-      "action": "flow://flows/resources"
-    },
-    {
       "text": "F.A.Q.",
       "icon": "/assets/menu_faq.png",
       "action": "flow://flows/faq.json"
@@ -47,12 +38,5 @@
       "icon": "/assets/menu_help.png",
       "action": "https://ert6g2.wixsite.com/hoosthinkcalmly/general-8"
     }
-  ],
-  "surveys": {"type": "ref", "path": "surveys.json"},
-  "reminders": {
-    "reminder_1": {"type": "survey", "survey_id": "typ1", "frequency": "01:00:00:00", "take": 14, "time": "09:00:00"},
-    "reminder_2": {"type": "survey", "survey_id": "typ2", "frequency": "01:00:00:00", "take": 14, "time": "09:00:00"},
-    "reminder_3": {"type": "survey", "survey_id": "typ3", "frequency": "01:00:00:00", "take": 14, "time": "09:00:00"},
-    "reminder_4": {"type": "survey", "survey_id": "typ4", "frequency": "01:00:00:00", "take": 14, "time": "09:00:00"}
-  }
+  ]
 }

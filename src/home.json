@@ -1,0 +1,47 @@
+{
+    "type": "list",
+    "elements": [
+        {
+            "type": "alert",
+            "title": "Sleep Study",
+            "message": "Understand Your Sleep",
+            "icon": "/assets/home_banner.png"
+        },
+        {
+            "type": "button",
+            "hideoncomplete": true,
+            "action": {
+                "text": "Surveys",
+                "action": "navmodal://Survey"
+            }
+        },
+        {
+            "type": "tiles",
+            "title": "More resources",
+            "icon": {
+                "url": "/assets/home_resources.png",
+                "tint": false
+            },
+            "actions": [
+                {
+                    "text": "Instructions",
+                    "action": "flow://flows/instructions.json",
+                    "backgroundcolor": "#1A00E05A",
+                    "icon": {
+                        "url": "/assets/home_instructions.png",
+                        "tint": false
+                    }
+                },
+                {
+                    "text": "What is Anxiety?",
+                    "action": "flow://flows/what is anxiety.json",
+                    "backgroundcolor": "#1A5C2FDA",
+                    "icon": {
+                        "url": "/assets/home_anxiety.png",
+                        "tint": false
+                    }
+                }
+            ]
+        }
+    ]
+}
