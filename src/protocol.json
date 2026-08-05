@@ -3,10 +3,9 @@
     "title": "Sleep Study",
     "element": {
       "type": "ref",
-      "path": "./home.json"
+      "path": "home.json"
     }
   },
-  "start_flow": "flow://flows/intro",
   "menu": [
     {
       "text": "What is MindTrails?",
@@ -38,5 +37,9 @@
       "icon": "/assets/menu_help.png",
       "action": "https://ert6g2.wixsite.com/hoosthinkcalmly/general-8"
     }
-  ]
+  ],
+  "surveys": {"type": "ref", "path": "protocols/surveys.json"},
+  "reminders": {
+    "reminder_1": {"type": "survey", "survey_id": "daily", "frequency": "01:00:00:00", "take": 14, "time": "09:00:00"}
+  }
 }
