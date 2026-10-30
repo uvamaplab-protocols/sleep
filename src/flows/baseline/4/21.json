@@ -1,25 +1,20 @@
 {
     "header_text": "Survey 3 of 4",
     "header_icon": "assets/subtitle.png",
-    "condition": [
-        "psqi_partner",
-        "!=",
-        "0"
-    ],
     "elements": [
         {
             "type": "Text",
-            "html": true,
-            "text": "<p>If you have a room mate or bed partner, ask him/her how often in the past month you have had . . .</p><br><p><b>a) Loud snoring</b></p>"
+            "text": "Do you have a bed partner or room mate?"
         },
         {
             "type": "Buttons",
-            "output_name": "baseline_psqi_10a",
+            "output_name": "baseline_psqi_10",
+            "variable_name": "psqi_partner",
             "buttons": [
-                "0::Not during the past month",
-                "1::Less than once a week",
-                "2::Once or twice a week",
-                "3::Three or more times a week"
+                "0::No bed partner or room mate",
+                "1::Partner/room mate in other room",
+                "2::Partner in same room, but not same bed",
+                "3::Partner in same bed"
             ]
         }
     ],

@@ -1,20 +1,21 @@
 {
     "header_text": "Survey 3 of 4",
     "header_icon": "assets/subtitle.png",
+    "condition": [
+        "psqi_5j",
+        "!=",
+        "0"
+    ],
     "elements": [
         {
             "type": "Text",
-            "text": "During the past month, how would you rate your sleep quality overall?"
+            "html": true,
+            "text": "<p><b>j) Other reason(s), please describe:</b></p>"
         },
         {
-            "type": "Buttons",
-            "output_name": "final_psqi_6",
-            "buttons": [
-                "0::Very good",
-                "1::Fairly good",
-                "2::Fairly bad",
-                "3::Very bad"
-            ]
+            "type": "Entry",
+            "output_name": "final_psqi_5j_text",
+            "placeholder": "Describe other reasons"
         }
     ],
     "navigation_conditions": [

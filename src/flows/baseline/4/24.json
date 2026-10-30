@@ -10,11 +10,11 @@
         {
             "type": "Text",
             "html": true,
-            "text": "<p>If you have a room mate or bed partner, ask him/her how often in the past month you have had . . .</p><br><p><b>d) Episodes of disorientation or confusion during sleep</b></p>"
+            "text": "<p>If you have a room mate or bed partner, ask him/her how often in the past month you have had . . .</p><br><p><b>c) Legs twitching or jerking while you sleep</b></p>"
         },
         {
             "type": "Buttons",
-            "output_name": "baseline_psqi_10d",
+            "output_name": "baseline_psqi_10c",
             "buttons": [
                 "0::Not during the past month",
                 "1::Less than once a week",

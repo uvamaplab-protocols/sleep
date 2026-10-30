@@ -1,0 +1,29 @@
+{
+    "header_text": "Survey 3 of 4",
+    "header_icon": "assets/subtitle.png",
+    "condition": [
+        "psqi_partner",
+        "!=",
+        "0",
+        "&&",
+        "psqi_10e",
+        "!=",
+        "0"
+    ],
+    "elements": [
+        {
+            "type": "Text",
+            "html": true,
+            "text": "<p><b>e) Other restlessness while you sleep; please describe:</b></p>"
+        },
+        {
+            "type": "Entry",
+            "output_name": "final_psqi_10e_text",
+            "placeholder": "Describe other restlessness"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

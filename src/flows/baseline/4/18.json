@@ -4,11 +4,11 @@
     "elements": [
         {
             "type": "Text",
-            "text": "During the past month, how often have you had trouble staying awake while driving, eating meals, or engaging in social activity?"
+            "text": "During the past month, how often have you taken medicine to help you sleep (prescribed or “over the counter”)?"
         },
         {
             "type": "Buttons",
-            "output_name": "baseline_psqi_8",
+            "output_name": "baseline_psqi_7",
             "buttons": [
                 "0::Not during the past month",
                 "1::Less than once a week",

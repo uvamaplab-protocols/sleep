@@ -4,16 +4,16 @@
     "elements": [
         {
             "type": "Text",
-            "text": "During the past month, how much of a problem has it been for you to keep up enough enthusiasm to get things done?"
+            "text": "During the past month, how often have you had trouble staying awake while driving, eating meals, or engaging in social activity?"
         },
         {
             "type": "Buttons",
-            "output_name": "baseline_psqi_9",
+            "output_name": "baseline_psqi_8",
             "buttons": [
-                "0::No problem at all",
-                "1::Only a very slight problem",
-                "2::Somewhat of a problem",
-                "3::A very big problem"
+                "0::Not during the past month",
+                "1::Less than once a week",
+                "2::Once or twice a week",
+                "3::Three or more times a week"
             ]
         }
     ],

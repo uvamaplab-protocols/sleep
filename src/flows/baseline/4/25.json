@@ -10,16 +10,11 @@
         {
             "type": "Text",
             "html": true,
-            "text": "<p>If you have a room mate or bed partner, ask him/her how often in the past month you have had . . .</p><br><p><b>e) Other restlessness while you sleep; please describe:</b></p>"
-        },
-        {
-            "type": "Entry",
-            "output_name": "baseline_psqi_10e_text",
-            "placeholder": "Describe other restlessness, if any"
+            "text": "<p>If you have a room mate or bed partner, ask him/her how often in the past month you have had . . .</p><br><p><b>d) Episodes of disorientation or confusion during sleep</b></p>"
         },
         {
             "type": "Buttons",
-            "output_name": "baseline_psqi_10e",
+            "output_name": "baseline_psqi_10d",
             "buttons": [
                 "0::Not during the past month",
                 "1::Less than once a week",
@@ -27,5 +22,9 @@
                 "3::Three or more times a week"
             ]
         }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
     ]
 }

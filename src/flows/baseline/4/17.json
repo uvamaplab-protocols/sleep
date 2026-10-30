@@ -4,16 +4,16 @@
     "elements": [
         {
             "type": "Text",
-            "text": "During the past month, how often have you taken medicine to help you sleep (prescribed or “over the counter”)?"
+            "text": "During the past month, how would you rate your sleep quality overall?"
         },
         {
             "type": "Buttons",
-            "output_name": "baseline_psqi_7",
+            "output_name": "baseline_psqi_6",
             "buttons": [
-                "0::Not during the past month",
-                "1::Less than once a week",
-                "2::Once or twice a week",
-                "3::Three or more times a week"
+                "0::Very good",
+                "1::Fairly good",
+                "2::Fairly bad",
+                "3::Very bad"
             ]
         }
     ],
