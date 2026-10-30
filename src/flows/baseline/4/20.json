@@ -4,17 +4,16 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Do you have a bed partner or room mate?"
+            "text": "During the past month, how much of a problem has it been for you to keep up enough enthusiasm to get things done?"
         },
         {
             "type": "Buttons",
-            "output_name": "baseline_psqi_10",
-            "variable_name": "psqi_partner",
+            "output_name": "baseline_psqi_9",
             "buttons": [
-                "0::No bed partner or room mate",
-                "1::Partner/room mate in other room",
-                "2::Partner in same room, but not same bed",
-                "3::Partner in same bed"
+                "0::No problem at all",
+                "1::Only a very slight problem",
+                "2::Somewhat of a problem",
+                "3::A very big problem"
             ]
         }
     ],
