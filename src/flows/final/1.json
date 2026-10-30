@@ -1,0 +1,11 @@
+{
+    "header_text": "Final Surveys",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "html": true,
+            "text": "<p><b>Final surveys</b></p><br><p>Please complete the same four surveys you answered on your first day: sleep habits, stress, sleep quality and alcohol use. The alcohol survey is optional.</p>"
+        }
+    ]
+}

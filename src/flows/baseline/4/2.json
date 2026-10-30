@@ -1,0 +1,15 @@
+{
+    "header_text": "Survey 3 of 4",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During the past month, what time have you usually gone to bed at night?"
+        },
+        {
+            "type": "Time",
+            "output_name": "baseline_psqi_1",
+            "default_time": "23:00"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "header_text": "Survey 2 of 4",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "html": true,
+            "text": "<p><b>Perceived Stress Scale</b></p><br><p>The following questions ask about your feelings and thoughts during the last month. For each item, indicate how often you felt or thought a certain way.</p>"
+        }
+    ]
+}

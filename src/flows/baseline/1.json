@@ -1,0 +1,11 @@
+{
+    "header_text": "Baseline Surveys",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "html": true,
+            "text": "<p><b>Welcome to the Sleep Study</b></p><br><p>Before you start, please complete four surveys about your sleep habits, stress, sleep quality and alcohol use. The alcohol survey is optional.</p><br><p>You'll answer the same surveys again on the final day of the study.</p>"
+        }
+    ]
+}

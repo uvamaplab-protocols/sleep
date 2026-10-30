@@ -1,0 +1,25 @@
+{
+    "header_text": "Survey 3 of 4",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "html": true,
+            "text": "<p>During the past month, how often have you had trouble sleeping because you . . .</p><br><p><b>e) Cough or snore loudly</b></p>"
+        },
+        {
+            "type": "Buttons",
+            "output_name": "final_psqi_5e",
+            "buttons": [
+                "0::Not during the past month",
+                "1::Less than once a week",
+                "2::Once or twice a week",
+                "3::Three or more times a week"
+            ]
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

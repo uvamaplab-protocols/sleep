@@ -1,0 +1,25 @@
+{
+    "header_text": "Survey 2 of 4",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?"
+        },
+        {
+            "type": "Buttons",
+            "output_name": "final_pss_10",
+            "buttons": [
+                "0::Never",
+                "1::Almost Never",
+                "2::Sometimes",
+                "3::Fairly Often",
+                "4::Very Often"
+            ]
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

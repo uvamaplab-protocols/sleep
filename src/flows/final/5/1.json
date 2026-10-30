@@ -1,0 +1,23 @@
+{
+    "header_text": "Survey 4 of 4",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "html": true,
+            "text": "<p><b>Quick Drinking Screen (optional)</b></p><br><p>This survey is optional. You may skip it without penalty.</p><br><p>A standard drink is defined as 12 oz. of 5% beer, 5 oz. of 12% wine, or 1.5 oz. of 40% hard liquor/spirits. The questions ask about the past 30 days.</p>"
+        },
+        {
+            "type": "Buttons",
+            "output_name": "final_qds_choice",
+            "buttons": [
+                "take::Take this survey",
+                "completion://final_qds_declined::Skip this survey"
+            ]
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

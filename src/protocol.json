@@ -1,45 +1,18 @@
 {
-  "home": {
-    "title": "Sleep Study",
-    "element": {
-      "type": "ref",
-      "path": "home.json"
-    }
-  },
-  "menu": [
-    {
-      "text": "What is MindTrails?",
-      "icon": "/assets/menu_mindtrails.png",
-      "action": "flow://flows/rationale.json"
+    "home": {
+        "title": "Sleep Study",
+        "element": {
+            "type": "ref",
+            "path": "./home.json"
+        }
     },
-    {
-      "text": "Instructions",
-      "icon": "/assets/menu_instructions.png",
-      "action": "flow://flows/instructions.json"
+    "menu": {
+        "type": "ref",
+        "path": "./menu.json"
     },
-    {
-      "text": "What is Anxiety?",
-      "icon": "/assets/menu_anxiety.png",
-      "action": "flow://flows/what is anxiety.json"
+    "surveys": {
+        "type": "ref",
+        "path": "./surveys.json"
     },
-    {
-      "text": "F.A.Q.",
-      "icon": "/assets/menu_faq.png",
-      "action": "flow://flows/faq.json"
-    },
-    {
-      "text": "Meet the Team",
-      "icon": "/assets/menu_team.png",
-      "action": "flow://flows/team.json"
-    },
-    {
-      "text": "Get Help",
-      "icon": "/assets/menu_help.png",
-      "action": "https://ert6g2.wixsite.com/hoosthinkcalmly/general-8"
-    }
-  ],
-  "surveys": {"type": "ref", "path": "surveys.json"},
-  "reminders": {
-    "reminder_1": {"type": "survey", "survey_id": "daily", "frequency": "01:00:00:00", "take": 14, "time": "09:00:00"}
-  }
+    "start_flow": "flow://flows/baseline"
 }

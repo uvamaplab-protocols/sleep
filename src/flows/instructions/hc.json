@@ -1,0 +1,10 @@
+{
+    "header_text": "Instructions",
+    "elements": [
+        {
+            "type": "Text",
+            "html": true,
+            "text": "<p><b>First and final days</b></p><p>On your first day, the app asks you to complete four surveys about your sleep habits, stress, sleep quality and alcohol use. The alcohol survey is optional. You'll answer the same surveys again on the final day: they appear under Show Surveys on the home page.</p><br><p><b>Every day for 30 days</b></p><p>Each evening at 8:00 PM the Daily Check-in opens. It stays open until 8:00 PM the next day. Tap Show Surveys on the home page to answer it.</p><br><p>It asks whether you took or used your hormonal contraception today, per your regular schedule, which symptoms you've experienced today, and how severe each of those symptoms is.</p><br><p>Answer the contraception question the same way whether your method is taken every day, every week, or on another schedule.</p>"
+        }
+    ]
+}

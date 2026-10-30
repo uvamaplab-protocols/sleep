@@ -1,0 +1,25 @@
+{
+    "header_text": "Survey 3 of 4",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Do you have a bed partner or room mate?"
+        },
+        {
+            "type": "Buttons",
+            "output_name": "final_psqi_10",
+            "variable_name": "psqi_partner",
+            "buttons": [
+                "0::No bed partner or room mate",
+                "1::Partner/room mate in other room",
+                "2::Partner in same room, but not same bed",
+                "3::Partner in same bed"
+            ]
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}
