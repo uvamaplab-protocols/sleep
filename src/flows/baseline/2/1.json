@@ -1,0 +1,11 @@
+{
+    "header_text": "Survey 1 of 4",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "html": true,
+            "text": "<p><b>Athlete Sleep Behavior Questionnaire</b></p><br><p>For each item, rate how often the following applied to you in recent times (over the last month).</p>"
+        }
+    ]
+}

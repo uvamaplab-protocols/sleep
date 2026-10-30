@@ -1,0 +1,34 @@
+{
+    "header_text": "Daily Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Please check any symptoms you've experienced today: (Select all that apply)"
+        },
+        {
+            "type": "Buttons",
+            "output_name": "daily_symptoms",
+            "variable_name": "symptoms",
+            "multiselect": true,
+            "buttons": [
+                "stomach_pains::Stomach pains",
+                "headache::Headache",
+                "migraine::Migraine",
+                "backache::Backache",
+                "fatigue::Fatigue",
+                "nausea::Nausea",
+                "mood_swings::Mood swings",
+                "difficulty_concentrating::Difficulty concentrating",
+                "anxiety::Anxiety",
+                "irritability::Irritability",
+                "sadness::Sadness",
+                "^none::None of these"
+            ]
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

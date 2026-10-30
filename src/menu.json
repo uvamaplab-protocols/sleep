@@ -1,0 +1,12 @@
+[
+    {
+        "text": "What is the Sleep Study?",
+        "icon": "/assets/menu_information.png",
+        "action": "flow://flows/rationale.json"
+    },
+    {
+        "text": "Instructions",
+        "icon": "/assets/menu_instructions.png",
+        "action": "flow://flows/instructions/${global:population}.json"
+    }
+]

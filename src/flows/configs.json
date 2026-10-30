@@ -1,0 +1,22 @@
+{
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Please choose the protocol population"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "HC::Hormonal contraception (pill, shot, IUD, patch, or ring)",
+                "NM::Naturally menstruating",
+                "M::Male"
+            ],
+            "variable_name": "global:population",
+            "output_name": "config_population"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

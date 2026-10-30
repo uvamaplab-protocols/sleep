@@ -1,0 +1,24 @@
+{
+    "header_text": "Survey 3 of 4",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During the past month, how would you rate your sleep quality overall?"
+        },
+        {
+            "type": "Buttons",
+            "output_name": "baseline_psqi_6",
+            "buttons": [
+                "0::Very good",
+                "1::Fairly good",
+                "2::Fairly bad",
+                "3::Very bad"
+            ]
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "header_text": "Survey 3 of 4",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During the past month, what time have you usually gotten up in the morning?"
+        },
+        {
+            "type": "Time",
+            "output_name": "baseline_psqi_3",
+            "default_time": "07:00"
+        }
+    ]
+}

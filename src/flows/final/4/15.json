@@ -1,0 +1,26 @@
+{
+    "header_text": "Survey 3 of 4",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "html": true,
+            "text": "<p>During the past month, how often have you had trouble sleeping because you . . .</p><br><p><b>j) Other reason(s), please describe:</b></p>"
+        },
+        {
+            "type": "Entry",
+            "output_name": "final_psqi_5j_text",
+            "placeholder": "Describe other reasons, if any"
+        },
+        {
+            "type": "Buttons",
+            "output_name": "final_psqi_5j",
+            "buttons": [
+                "0::Not during the past month",
+                "1::Less than once a week",
+                "2::Once or twice a week",
+                "3::Three or more times a week"
+            ]
+        }
+    ]
+}
